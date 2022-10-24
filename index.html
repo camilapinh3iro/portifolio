@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/56adc94ecd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/logo.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -13,6 +14,8 @@
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contato.css">
     <title>Portifólio - Camila Pinheiro</title>
 </head>
 
@@ -38,6 +41,9 @@
     </header>
 
     <main>
+        <a href="#" class="voltar">
+            <i class="fas fa-arrow-circle-up"></i>
+        </a>
         <section class="home" id="home">
             <div class="profile">
                 <img class="profile__foto" src="./img/minha-foto.png" alt="foto">
@@ -50,14 +56,144 @@
         </section>
         <section class="sobre-mim" id="sobre-mim">
             <h2 class="section-title">Sobre Mim</h2>
-            <div class="description"></div>
-            <div class="skills"></div>
+            <div class="description">
+                <h3 class="description__title">Quem sou</h3>
+                <p class="description__text">
+                    Sou iniciante na área de criação e manutenção de sites, tenho conhecimento  em prototipação e designer, sempre pensando na esperiência do usúario. 
+                    Apaixonada pelo mundo digital e principalmente desenvolvimento, constantemente procuro inspirações nos meus colegas de trabalho e no mundo que me rodeia. 
+                </p>
+            </div>
+            <div class="skills">
+                <h3 class="skills__title">Skills</h3>
+                <ul class="skills__icons">
+                    <li class="skills__icon">
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fa-brands fa-js"></i>
+                        <span>JS</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fa-brands fa-figma"></i>
+                        <span>FIGMA</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GITHUB</span>
+                    </li>
+                    <li class="skills__icon">
+                        <i class="fa-brands fa-java"></i>
+                        <span>JAVA</span>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section class="projetos" id="projetos"></section>
-        <section class="contato" id="contato"></section>
+        <section class="projetos" id="projetos">
+            <h2 class="section-title">Projetos</h2>
+            <ul class="card-container">
+                <li>
+                    <a href="#" class="card">
+                        <img src="./img/projeto.png" alt="HeadPhone">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="card">
+                        <img src="./img/projeto.png" alt="HeadPhone">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="card">
+                        <img src="./img/projeto.png" alt="HeadPhone">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="card">
+                        <img src="./img/projeto.png" alt="HeadPhone">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="card">
+                        <img src="./img/projeto.png" alt="HeadPhone">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="card">
+                        <img src="./img/projeto.png" alt="HeadPhone">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="contato" id="contato">
+            <h2 class="section-title">Contato</h2>
+            <ul class="contato-container">
+                <li>
+                    <h4 class="contato-title">Contato</h4>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fa-solid fa-phone contato-item__icon"></i>
+                        <span class="contato-item__text">(11) 4774-4700</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fa-solid fa-envelope" contato-item__icon></i>
+                        <span class="contato-item__text">pinheirocamila49800@gmail.com</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="contato-item">
+                        <i class="fa-solid fa-location-dot" contato-item__icon></i>
+                        <span class="contato-item__text">(11) 4774-4700</span>
+                    </div>
+                </li>
+            </ul>
+            <ul class="social-container">
+                <li class="social">
+                    <i class="fa-brands fa-instagram"></i>
+                </li>
+                <li class="social">
+                    <i class="fa-brands fa-youtube"></i>
+                </li>
+                <li class="social">
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+                <li class="social">
+                    <i class="fa-brands fa-linkedin"></i>
+                </li>
+            </ul>
+            <ul class="links-container">
+                <li>
+                    <h4 class="links-title">Links</h4>
+                </li>
+                <li>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+                
+            </ul>
+        </section>
     </main>
 
-    <footer>footer</footer>
+    <footer>
+        
+        <p>
+            Todos os Direitos Reservados 2022 | Desenvolvido por Camila Pinheiro
+        </p>
+    </footer>
 </body>
 
 </html>
