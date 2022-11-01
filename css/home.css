@@ -10,9 +10,7 @@
 }
 
 .home::before{
-   
-    
-    /* filter: grayscale(100%); */
+ /* filter: grayscale(100%); */
    
 }
 
@@ -33,4 +31,15 @@
 .profile__nome{
     font-size: 4rem;
     color: var(--primary-color);
+}
+
+@media (max-width: 640px){
+
+    .profile__foto{
+        align-items: center;
+        width: 350px;
+        height: 350px;
+    }
+
+    
 }

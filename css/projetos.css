@@ -25,10 +25,6 @@
     
 }
 
-/* .card>img{
-    width: 320px;
-    height: 200px;
-}  */
 .card::before{
     content: "Clique aqui para ver o projeto";
     background-color: #0009;
@@ -44,4 +40,45 @@
 
 .card:hover::before{
     transform: translateY(0%);
+}
+
+@media (max-width: 960px){
+.projetos{
+    margin-top: 200px;
+    height: auto;
+}
+
+    .card-container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    
+    .card>img{
+        /* width: 800px ; */
+        width: 90vw;
+        height: 420px ;
+    }
+}
+
+@media (max-width: 640px){
+    .projetos{
+       height: auto ;
+    }
+    .card>img{
+        
+        width: 90vw;
+        height: auto;
+    }
+
+    .card-container{
+        max-width: 90vw;
+        
+    }
+
+    .section-title{
+        font-size: 110px;
+    }
+
 }

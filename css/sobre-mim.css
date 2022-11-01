@@ -89,3 +89,54 @@
     font-size: 1rem;
     font-weight: 700;
 }
+
+@media (max-width: 960px){
+    .section-title{
+    font-size: 180px;
+    }
+
+    .description__text{
+    line-height: 110%;
+    }
+
+    .skills__icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    }
+
+    .description__text{
+    margin-left: 65px;
+    }
+    .skills__title, .description__title{
+    margin-left: 65px;
+    }
+
+}
+
+@media (max-width: 640px){
+    .sobre-mim{
+        max-width: 640px;
+        height: auto;
+    }
+
+    .skills__icons{
+        height: auto;
+    }
+
+    .description__text{
+        width: 500px;
+        font-size: 2.8rem;
+    }
+    .sobre-mim .section-title{
+        font-size: 120px;
+    }
+
+    .skills__title{
+        margin-top: 20px ;
+    }
+
+
+}

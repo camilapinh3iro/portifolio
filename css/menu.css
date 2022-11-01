@@ -11,3 +11,20 @@
 .menu li:hover{
     border-color: var(--primary-color);
 }
+
+@media (max-width: 640px){
+    header{
+        max-width: 640px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bars{
+        display: block;
+        font-size: 30px;
+    }
+
+    .menu>li>a{
+        display: none;
+    }
+}
