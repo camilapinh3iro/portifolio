@@ -6,7 +6,7 @@
 
 ---
 ## Sobre 
-Site do tipo lading page para divulgar o meu portifólio.
+Site do tipo one page para divulgar o meu portifólio.
 
 O objetivo deste projeto é colocar em prática os conhecimentos adquiridos no curso do [SENAI Jandira](https://camilapinh3iro.github.io/killjoy/) na criação de web sites.    
 
